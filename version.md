@@ -6,6 +6,19 @@
 
 # Актуальная версия
 
+## Версия 2.0
+
+### 2.0.0
+
+- Новый контракт библиотеки
+- Новые методы (setup, auth, deactivateTokens)
+- Добавлены зависимости:
+  * ru.spaymentsplus.libraries:easyDI
+  * ru.spaymentsplus.libraries:metrics-sdk
+- Доработана логика для краевых кейсов: 
+  * если все карты заморожены, возвращать ошибку NO_CARDS, а не INCORRECT_PARAMS
+  * после no_connection при последующих вызовах getTokensForCard успешно возвращать токены для выбранной ранее карты, а не ошибку NO_PRIORITY_CARD
+
 ## Версия 1.0
 
 ### 1.0.5

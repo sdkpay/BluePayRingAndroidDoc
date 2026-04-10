@@ -26,6 +26,8 @@ androidx-security-crypto = { group = "androidx.security", name = "security-crypt
 squareup-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "logging-interceptor" }
 google-dagger = { group = "com.google.dagger", name = "dagger", version.ref = "dagger" }
 google-dagger-compiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "dagger-compiler" }
+modern-payments-easydi = { group = "ru.spaymentsplus.libraries", name = "easyDI", version.ref = "easy-di" }
+modern-payments-metrics = { group = "ru.spaymentsplus.libraries", name = "metrics-sdk", version.ref = "mertics" }
 ```
 
 ## Версии зависимостей:
@@ -50,4 +52,6 @@ security-crypto = "1.1.0-alpha06"
 logging-interceptor = "4.10.0"
 dagger = "2.44"
 dagger-compiler = "2.44"
+easy-di = "1.0.1"
+mertics = "1.0.0-rc8"
 ```
